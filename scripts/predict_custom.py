@@ -8,7 +8,10 @@ import os
 # Construct the absolute path to the model file
 script_dir = os.path.dirname(os.path.abspath(__file__))
 project_root = os.path.dirname(script_dir)
-model_path = os.path.join(project_root, "models", "mnist_cnn.h5")
+# model_path = os.path.join(project_root, "models", "mnist_cnn.h5")
+# use this model for example 2
+model_path = os.path.join(project_root, "models", "mnist_cnn_example_2.h5")
+
 custom_image_dir_path = os.path.join(project_root, "digits")
 
 # Load the model
